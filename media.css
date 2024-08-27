@@ -11,12 +11,15 @@
 
     .nav-items {
         top: 0px;
+        align-items: start;
         justify-content: center;
-        gap: 2px;
+        gap: 5px;
+        width: 200px;
     }
 
     .center-heading {
         top: 70px;
-        right: 50px;
+        left: 148px;
+        font-weight: 500;
     }
 }
