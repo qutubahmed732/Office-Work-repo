@@ -1,0 +1,117 @@
+@media (max-width: 1200px) {
+    .nav-items {
+        width: 70%;
+        left: 500px;
+    }
+
+    .first-heading {
+        transform: translate(400px, 150px);
+    }
+
+    .arrow {
+        transform: translate(500px, 350px);
+    }
+
+    .sub-heading {
+        transform: translate(250px, 80px);
+    }
+
+    form {
+        width: 600px;
+        transform: translate(180px, 150px);
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-items {
+        width: 80%;
+        left: 0;
+        top: 10px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .first-heading {
+        transform: translate(50%, 120px);
+        text-align: center;
+    }
+
+    .arrow {
+        transform: translate(50%, 300px);
+        text-align: center;
+    }
+
+    .sub-heading {
+        transform: translate(0, 50px);
+        width: 100%;
+        text-align: center;
+    }
+
+    form {
+        width: 90%;
+        transform: translate(5%, 100px);
+    }
+
+    .input-area {
+        grid-template-columns: 1fr;
+    }
+
+    .sendBtn {
+        margin: 20px auto;
+        width: 100px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        top: 20px;
+        left: 0;
+    }
+
+    .first-heading, .arrow {
+        /* transform: none; */
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .sub-heading {
+        transform: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    form {
+        width: 100%;
+        transform: none;
+        padding: 0 10px;
+    }
+
+    .sendBtn {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    .container2 {
+        height: auto;
+    }
+
+    .container3 {
+        height: auto;
+        padding: 20px 0;
+    }
+}
