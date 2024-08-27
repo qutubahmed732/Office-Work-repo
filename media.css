@@ -54,8 +54,23 @@
     button {
         width: 100%;
     }
-}
 
+    .lower-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .app-sec {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        gap: 9px;
+        margin-left: 0px;
+    }
+}
 
 @media only screen and (max-width : 600px) {
     .container {
